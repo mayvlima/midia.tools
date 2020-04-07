@@ -300,7 +300,8 @@ button:hover{
     flex-direction: column;      
     align-items: center;
     justify-content: center;
-    margin-top: 80px;    
+    margin-top: 80px; 
+    margin-right: 50px;   
 }
 
 .formulario h3{
@@ -333,8 +334,7 @@ button:hover{
     font-family: 'Roboto', sans-serif;
     text-align: center; 
     margin-top: 10px;
-    margin-bottom: 5px;
-    /* width: 100%;         */
+    margin-bottom: 5px;    
 }
 
 ::-webkit-input-placeholder {
@@ -439,24 +439,21 @@ h3 {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    margin-top: 20px;    
+    margin-top: 25px;    
 }
 
 .formulario{       
     width: 100%;
-    margin-top: 2px;             
+    margin-top: 2px; 
+    margin-right: 0;            
 }
 
 .formulario h3{    
-    margin: 5px;
+    margin: 10px;
 }
 
 .formulario form{    
     width: 100%;            
-}
-
-.formulario a{    
-    margin-top: 10px;
 }
 
 .formulario input{
@@ -498,7 +495,7 @@ h3 {
     margin-left: 20px;    
 }
 
-.logos a img{
+.logos a img{    
     width: 40px;    
 }
 
@@ -512,6 +509,10 @@ h3 {
 
 #logoLoginCadastro{
     width: 114px;
+    margin-bottom: 20px;
+}
+
+#pergunta{
     margin-bottom: 20px;
 }
 /* Acaba formulário */
